@@ -117,10 +117,35 @@ a {
 		float: left;
 	}
 
+	.primary {
+		width: 40%;
+		float: left;
+	}
+
+	.secondary {
+		width: 60%;
+		float: right;
+	}
+
+
+	.col {
+		float: left;
+		padding-right: 1em;
+	}
+
+	.col + .col {
+		padding-left: 1em;
+	}
+	.col:last-child {
+		padding-right: 0;
+	}
+
+
+
 	.feat-img {
 		width: 300px;
 		float: left;
-		margin: 5px 25px 25px;
+		margin: 5px 25px 25px 0;
 		padding: 10px;
 		border: solid 1px #d9e4ea;
 		border-radius: 5px;
