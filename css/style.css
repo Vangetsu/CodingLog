@@ -117,6 +117,11 @@ a {
 		float: left;
 	}
 
+	.col {
+		float: left;
+		padding-right: 1em;
+	}
+
 	.primary {
 		width: 40%;
 		float: left;
@@ -125,12 +130,6 @@ a {
 	.secondary {
 		width: 60%;
 		float: right;
-	}
-
-
-	.col {
-		float: left;
-		padding-right: 1em;
 	}
 
 	.col + .col {
