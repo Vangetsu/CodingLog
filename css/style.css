@@ -123,12 +123,12 @@ a {
 	}
 
 	.primary {
-		width: 50%;
+		width: 40%;
 		float: left;
 	}
 
 	.secondary {
-		width: 50%;
+		width: 60%;
 		float: right;
 	}
 
