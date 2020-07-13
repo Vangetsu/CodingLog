@@ -108,4 +108,8 @@ a {
 		float: left;
 	}
 
+	p {
+		border: solid 2px red;
+	}
+
 }
